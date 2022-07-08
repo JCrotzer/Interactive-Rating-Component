@@ -13,11 +13,6 @@ $(".rating").click(function(e) {
     }
 })
 
-// $('rating').on('click', function() {
-//     $('rating').removeClass('active');
-//     $(this).addClass('active');
-// })
-
 $(".submit").click(function(e) {
     if (rated.length >=1) {
         $(".results").text("You selected " + attID + " out of 5");
