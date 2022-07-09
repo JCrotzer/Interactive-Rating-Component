@@ -23,8 +23,8 @@ html, body {
 }
 
 .card {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     background-color:#1a212b;
     border-radius: 10px;
     display:flex;
@@ -59,7 +59,7 @@ html, body {
 .description {
     color: hsl(216, 12%, 54%);
     font-size: 13px;
-    margin-left: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 .rating-active {
@@ -93,7 +93,7 @@ button:focus {
 }
 
 .list-rating {
-    margin-left: 15px;
+    margin-left: 25px;
     margin-top: -10px;
     display: flex;
 }
@@ -105,7 +105,7 @@ button:focus {
     height: 40px;
     border-radius:20px;
     border: none;
-    margin: 0 25px;
+    margin: 0 45px;
     padding-top: 5px;
 }
 
