@@ -68,14 +68,14 @@ html, body {
 }
 
 .rating {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     border: none;
     line-height: -8px;
     background-color: #262f38;
     color:hsl(216, 12%, 54%); 
-    margin-left: 25px;
+    margin-left: 15px;
     display: flex;
     flex-direction: row;
     align-items:center;
@@ -93,7 +93,7 @@ button:focus {
 }
 
 .list-rating {
-    margin-left: 25px;
+    margin-left: 35px;
     margin-top: -10px;
     display: flex;
 }
