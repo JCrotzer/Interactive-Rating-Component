@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
 }
 
-.main-section {
-    width: 340px;
-    height: 600px;
-    margin: 0 auto;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     background-color:  hsl(216, 12%, 8%);
+}
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,25 +146,6 @@ button:focus {
     margin-bottom: 10px;
 }
 
-/* Footer */
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
-/* DESKTOP */
-
-@media screen and (min-width : 820px) {
-    
-    .main-section {
-        width: 800px;
-        height: 600px;
-    }
-}
 
 
 
